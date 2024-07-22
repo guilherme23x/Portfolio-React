@@ -1,0 +1,39 @@
+/* Sobre */
+
+.sobre {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  gap: 3.2rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--branco);
+}
+
+img {
+  border-radius: 50%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 3.8rem;
+  font-weight: 300;
+  width: 100%;
+}
+
+span {
+  font-weight: 600;
+}
+
+.textoSobre {
+  display: flex;
+  width: 50%;
+  flex-flow: column;
+  gap: 2.6rem;
+}

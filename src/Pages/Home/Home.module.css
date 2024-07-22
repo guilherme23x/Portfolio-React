@@ -1,0 +1,34 @@
+/* Home */
+
+.home {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+
+  h1 {
+    font-size: 6.4rem;
+    font-weight: 200;
+    color: var(--branco);
+  }
+
+  h2 {
+    font-size: 4.2rem;
+    font-weight: 200;
+    color: var(--branco);
+  }
+
+  .seta {
+    position: absolute;
+    display: block;
+    bottom: 2rem;
+    padding: 1rem;
+    box-shadow: 1px -1px 0 1px #4b566b inset;
+    border: solid transparent;
+    border-width: 0 0 1px 1px;
+    animation: anima-seta 3s ease-in-out infinite;
+    cursor: pointer;
+  }
+}

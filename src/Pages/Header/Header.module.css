@@ -1,0 +1,29 @@
+
+/* Cabeçalho */
+
+header {
+  width: 100%;
+  position: absolute;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2.6rem;
+  padding: 1.2rem;
+
+  .tituloNav,
+  a {
+    font-size: 1.5rem;
+    color: var(--branco);
+    text-decoration: none;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    gap: 1.8rem;
+  }
+}
