@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/guilherme23x/Portfolio-React/static/css/main.d432a6e3.css",
+    "main.js": "/guilherme23x/Portfolio-React/static/js/main.700fb966.js",
+    "static/media/Perfil.jpg": "/guilherme23x/Portfolio-React/static/media/Perfil.aa709fbf6fbf502dd500.jpg",
+    "index.html": "/guilherme23x/Portfolio-React/index.html",
+    "main.d432a6e3.css.map": "/guilherme23x/Portfolio-React/static/css/main.d432a6e3.css.map",
+    "main.700fb966.js.map": "/guilherme23x/Portfolio-React/static/js/main.700fb966.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d432a6e3.css",
+    "static/js/main.700fb966.js"
+  ]
+}
