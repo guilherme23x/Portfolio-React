@@ -1,0 +1,43 @@
+.projetos {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+    color: var(--branco);
+    font-size: 3.2rem;
+    font-weight: 300;
+    margin-top: 5%;
+  }
+
+  .cardsProjetos {
+    display: flex;
+    overflow-y: scroll;
+    width: 90%;
+    height: 50vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    padding: 1.6rem;
+  }
+
+  /* Scroll do Mouse */
+
+  .cardsProjetos::-webkit-scrollbar {
+    width: 0.6rem;
+  }
+
+  .cardsProjetos::-webkit-scrollbar-track {
+    background: var(--darkBlue);
+  }
+
+  .cardsProjetos::-webkit-scrollbar-thumb {
+    background-color: var(--darkGrey);
+    border-radius: 20px;
+    border: 3px solid --darkGrey;
+  }
+}
