@@ -8,9 +8,9 @@ function Cabecalho() {
       <div className='menu'>
         <a href="#Sobre">Sobre</a>
         <a href="#Projetos">Projetos</a>
-        <a href="#Experiencia">Experiencia</a>
-        <a href="">Habilidades</a>
-        <a href="">Contatos</a>
+        <a href="#Experiencia">Experiência</a>
+        <a href="#Habilidades">Habilidades</a>
+        <a href="#Contatos">Contatos</a>
       </div>
 
     </header>

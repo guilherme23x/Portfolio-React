@@ -4,6 +4,8 @@ import Home from "./components/Home/Home";
 import Sobre from "./components/Sobre/Sobre";
 import Projetos from "./components/Projetos/Projetos";
 import Experiencia from './components/Experiencia/Experiencia';
+import Habilidades from './components/Habilidades/Habilidades';
+import Contatos from './components/Contatos/Contatos';
 
 
 
@@ -15,6 +17,8 @@ function App() {
       <Sobre />
       <Projetos />
       <Experiencia />
+      <Habilidades/>
+      <Contatos/>
     </>
   );
 }

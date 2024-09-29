@@ -1,6 +1,5 @@
 import './Cards.modules.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faM, faMobile } from '@fortawesome/free-solid-svg-icons';
 
 function Cards(props) {
   return (
