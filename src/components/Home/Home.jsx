@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.modules.css';
 
-function Home() {
+const Home = () => {
   return (
     <section className='home'>
       <div className='boasVindas'>
