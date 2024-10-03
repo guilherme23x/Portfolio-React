@@ -10,10 +10,10 @@ const Projetos = () => {
       <h2>Projetos</h2>
 
       <div className='Cartoes'>
-        <Link to={"/Projetos-Web"}> <CardsHome icone={faEarthAmerica} titulo={"Web"} info={"Interfaces simples com um belo propósito de interação"} /></Link>
-        <CardsHome icone={faMobile} titulo={"Mobile"} info={"Interfaces simples com um belo propósito de interação"} />
-        <CardsHome icone={faDesktop} titulo={"Desktop"} info={"Interfaces simples com um belo propósito de interação"} />
-        <CardsHome icone={faPen} titulo={"Desenhos"} info={"Interfaces simples com um belo propósito de interação"} />
+        <Link to={"/portfolio-react/web"}> <CardsHome icone={faEarthAmerica} titulo={"Web"} info={"Interfaces simples com um belo propósito de interação"} /></Link>
+        <Link to={"/portfolio-react/mobile"}> <CardsHome icone={faMobile} titulo={"Mobile"} info={"Interfaces simples com um belo propósito de interação"} /></Link>
+        <Link to={"/portfolio-react/desktop"}><CardsHome icone={faDesktop} titulo={"Desktop"} info={"Interfaces simples com um belo propósito de interação"} /></Link>
+        <Link to={"/portfolio-react/desenhos"}><CardsHome icone={faPen} titulo={"Desenhos"} info={"Interfaces simples com um belo propósito de interação"} /></Link>
       </div>
     </section>
 

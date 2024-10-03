@@ -1,0 +1,36 @@
+.imagem {
+  width: 25rem;
+  height: auto;
+  border-radius: 2rem;
+  border: .3rem solid #27dd73;
+  object-fit: contain;
+  transition: .1s;
+}
+
+.imagem:hover {
+  transform: scale(140%);
+  box-shadow: rgba(0, 0, 0, 0.274) 0px 5px 2px;
+}
+
+.cardImagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  padding: 4rem;
+  overflow-y: scroll;
+}
+
+h2 {
+  text-align: center;
+}
+
+.Desenhos {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4.2rem;
+}

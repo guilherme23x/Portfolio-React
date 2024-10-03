@@ -1,0 +1,19 @@
+.Project {
+  height: 90vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.CardsProjects {
+  width: 95%;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

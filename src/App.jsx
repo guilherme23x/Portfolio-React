@@ -1,25 +1,21 @@
-import './App.modules.css';
-import Cabecalho from "./components/Cabecalho/Cabecalho";
-import Home from "./components/Home/Home";
-import Sobre from "./components/Sobre/Sobre";
-import Projetos from "./components/Projetos/Projetos";
-import Experiencia from './components/Experiencia/Experiencia';
-import Habilidades from './components/Habilidades/Habilidades';
-import Contatos from './components/Contatos/Contatos';
-
-
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage/HomePage';
+import WebProject from './pages/Web/WebProject';
+import Mobile from './pages/Mobile/Mobile';
+import Desktop from './pages/Desktop/Desktop'
+import Desenhos from './pages/Desenhos/Desenhos';
+import Erro from './pages/Erro/ErroPagina';
 
 function App() {
   return (
-    <>
-      <Cabecalho />
-      <Home />
-      <Sobre />
-      <Projetos />
-      <Experiencia />
-      <Habilidades/>
-      <Contatos/>
-    </>
+    <Routes>
+      <Route path='/portfolio-react/*' element={<Erro />} />
+      <Route path='/portfolio-react/' element={<HomePage />} />
+      <Route path='/portfolio-react/web' element={<WebProject />} />
+      <Route path='/portfolio-react/mobile' element={<Mobile />} />
+      <Route path='/portfolio-react/desktop' element={<Desktop />} />
+      <Route path='/portfolio-react/desenhos' element={<Desenhos />} />
+    </Routes>
   );
 }
 

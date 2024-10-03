@@ -1,16 +1,16 @@
 import React from 'react';
 import './Cabecalho.modules.css'
 
-function Cabecalho() {
+function Cabecalho(props) {
   return (
     <header >
-      <a href="">Guilherme</a>
+      <a href={props.headerHome}>Guilherme</a>
       <div className='menu'>
-        <a href="#Sobre">Sobre</a>
-        <a href="#Projetos">Projetos</a>
-        <a href="#Experiencia">Experiência</a>
-        <a href="#Habilidades">Habilidades</a>
-        <a href="#Contatos">Contatos</a>
+        <a href={props.headerSobre}>Sobre</a>
+        <a href={props.headerProjetos}>Projetos</a>
+        <a href={props.headerExperiencia}>Experiência</a>
+        <a href={props.headerHabilidades}>Habilidades</a>
+        <a href={props.headerContatos}>Contatos</a>
       </div>
 
     </header>
