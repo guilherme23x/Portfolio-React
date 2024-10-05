@@ -1,0 +1,22 @@
+.projetos {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+  gap: 2.4rem;
+}
+
+.Cartoes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+@media (max-width: 768px) {
+  .projetos{
+    height: auto;
+  }
+}
